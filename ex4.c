@@ -2,6 +2,12 @@
 #include<stdio.h>
 int main(){
 int i,num,heads=0,tails=0;
+ char name[20]
+ 
+ printf("What is your name?\n> ");
+  scanf("%s",name);
+  printf("Hello, %s!\n",name);
+
 
 printf("Tossing a coin...\n");
 
